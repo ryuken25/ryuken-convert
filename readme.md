@@ -1,4 +1,4 @@
 Ryuken-Converter 
 
 install 
-$ npm i ryuken-converter -g
+$ npm i ryuken-convert -g
