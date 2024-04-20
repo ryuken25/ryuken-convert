@@ -1,0 +1,46 @@
+{
+    "name": "ryuken-converter",
+    "version": "1.0.0",
+    "description": "Converting ETH-BTC-Doge",
+    "main": "index.js",
+    "keywords": [
+      "currency",
+      "exchange",
+      "rates",
+      "convert",
+      "bitcoin",
+      "ethereum",
+      "doge"
+    ],
+    "license": "MIT",
+    "bin": {
+      "currency": "cli.js"
+    },
+    "scripts": {
+      "test": "ava -v"
+    },
+    "dependencies": {
+      "got": "^11.8.6",
+      "money": "^0.2.0",
+      "ora": "^5.4.1",
+      "update-notifier": "^5.1.0"
+    },
+    "author": {
+      "name": "Kenshi",
+      "email": "winayaarya@gmail.com",
+      "url": "https://github.com/ryuken25"
+    },
+    "bugs": {
+      "url": "https://github.com/ryuken25/ryuken-converter/issues"
+    },
+    "homepage": "https://github.com/ryuken25/ryuken-converter",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/ryuken25/ryuken-converter.git"
+    },
+    "devDependencies": {
+      "ava": "^3.15.0",
+      "nock": "^12.0.3"
+    }
+  }
+  
